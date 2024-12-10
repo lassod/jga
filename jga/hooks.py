@@ -5,16 +5,25 @@ app_description = "A customization application for jga website "
 app_email = "systems@lassod.com"
 app_license = "MIT"
 
+app_logo_url = '/assets/jga/images/logo.svg'
+
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/jga/css/jga.css"
-# app_include_js = "/assets/jga/js/jga.js"
+app_include_css = "/assets/jga/css/jga.css"
+app_include_js = "/assets/jga/js/jga.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/jga/css/jga.css"
-# web_include_js = "/assets/jga/js/jga.js"
+web_include_css = "/assets/jga/css/jga.css"
+web_include_js = "/assets/jga/js/jga.js"
+
+
+# include splash and logo
+website_context = {
+	"favicon": 	"/assets/jga/images/logo.svg",
+	"splash_image": "/assets/jga/images/favicon.png"
+}
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "jga/public/scss/website"
@@ -24,7 +33,7 @@ app_license = "MIT"
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
 # include js in page
-# page_js = {"page" : "public/js/file.js"}
+page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
@@ -36,7 +45,7 @@ app_license = "MIT"
 # ----------
 
 # application home page (will override Website Settings)
-# home_page = "login"
+home_page = "login"
 
 # website user home page (by Role)
 # role_home_page = {

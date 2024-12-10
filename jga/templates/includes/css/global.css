@@ -1,0 +1,63 @@
+.icon-sm {
+    width: 16px;
+    height: 16px;
+    /* fill: #AA0AB2; */
+}
+
+
+.sidebar-section a {
+    text-decoration: none;
+    color: #AA0AB2;
+}
+
+.btn.btn-primary{
+    background-color: #AA0AB2;
+    color: white;
+  }
+  .slides-progress .slide-step.active .slide-step-indicator  {
+    background-color: #AA0AB2;
+    color: white;
+}
+.slides-progress .slide-step.active {
+    border: 1px solid #AA0AB2;
+}
+.slides-progress .slide-step.step-success:not(.active) {
+    background-color: #AA0AB2;
+    border: 1px solid #AA0AB2;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #AA0AB2;
+    transition: width 0.6s ease;
+}
+.btn.btn-default{
+    background-color: #AA0AB2;
+    color: white;
+}
+
+.btn.btn-primary {
+    background-color: #AA0AB2;;
+    color: var(--white);
+    --icon-stroke: currentColor;
+    --icon-fill-bg: #AA0AB2;;
+}
+
+
+
+@media (min-width: 992px){
+[data-page-route=Workspaces] .layout-main .layout-main-section-wrapper::-webkit-scrollbar-track, [data-page-route=Workspaces] .layout-main .layout-side-section::-webkit-scrollbar-track {
+    background: #AA0AB2;
+    color: red;
+}}
+
+
+@media (min-width: 992px){
+[data-page-route=Workspaces] .layout-main .layout-main-section-wrapper::-webkit-scrollbar-thumb, [data-page-route=Workspaces] .layout-main .layout-side-section::-webkit-scrollbar-thumb {
+    background: #d0cece;
+}}
